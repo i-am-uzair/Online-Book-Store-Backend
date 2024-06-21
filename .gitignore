@@ -1,0 +1,39 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+book-store/node_modules
+book-store/.gitignore
+backend-book-store/node_modules
+book-store/.pnp
+book-store/.pnp.js
+book-store/.yarn/install-state.gz
+
+# testing
+book-store/coverage
+
+# next.js
+book-store/.next/
+book-store/out/
+
+# production
+book-store/build
+
+# misc
+book-store/.DS_Store
+book-store/*.pem
+
+# debug
+book-store/npm-debug.log*
+book-store/yarn-debug.log*
+book-store/yarn-error.log*
+
+# local env files
+book-store/.env*.local
+book-store/.env
+
+# vercel
+book-store/.vercel
+
+# typescript
+book-store/*.tsbuildinfo
+book-store/next-env.d.ts
